@@ -1,0 +1,246 @@
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout{
+      display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+
+}
+body {
+  background-color: rgb(246, 244, 241);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  padding: 0px;
+    border: 0;
+    font-size: 100%;
+    clear: both;
+
+}
+.header
+{
+   display: flex;
+    margin-left: auto;
+    padding: 0.8rem;
+}
+.hamburger
+{
+  font-size: 29px;
+  color: white;
+  cursor:default;
+  float: right;
+  background-color: #ba2b26;
+  border-radius: 5px;
+  width: 40px;
+  margin: 10px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;  
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: rgb(255,255,255);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: right;
+  margin-top: 30px;
+
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.logo
+{
+    object-fit: contain;
+    width: 10rem;
+    height: 13rem;
+}
+.heading
+{
+padding-top: 1.23rem;
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1;
+  font-family: "Montserrat";
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f15953;
+}
+.subhead
+{
+  
+    font-family: "Montserrat";
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f15953;
+        font-size: 25px;
+    line-height: 0;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    line-height: 0;
+    margin-bottom: 3rem;
+}
+.btn
+{
+  height: 50px;
+  width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+    background-color: #f15953;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.btn-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px auto 12px 16px;
+    padding-left: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.txt{
+  width: 240px;
+  font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 1.29;
+    color: #525252;
+
+
+}
+.txtt{
+  width: 17rem;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 1.27;
+    color: #2e2e2e;
+    margin: 1rem auto;
+    text-align: center;
+}
+.menu{
+  display: flex;
+    justify-content: space-around;
+    background: #fff;
+    background-color: 
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    z-index: 998;
+    left: 0;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.qr-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    max-width: 85px;
+    transform: translateY(-20px);
+    transition: transform .3s ease;
+
+}
+.qr-svg
+{
+  background-color: #f15953;
+    padding: .9rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    transition: all .3s ease;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+.icon
+{
+
+  height: 30px;
+
+}
+.menu-txt
+{
+  font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c1bfbb;
+    margin: 0;
+    padding: .5rem;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.qr-bb
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    max-width: 85px;
+
+}
